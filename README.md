@@ -10,10 +10,11 @@ Original picture:
 
 ![alt text](lena.jpg)
 
+2X magnify GPU version:
+
+![alt text](lena3.jpg)
+
 2X magnify CPU version:
 
 ![alt text](lena2.jpg)
 
-2X magnify GPU version:
-
-![alt text](lena3.jpg)
