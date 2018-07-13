@@ -7,10 +7,13 @@ For the algorithm, I suggest reading: Image zooming using directional cubic conv
 In total, it contains three passes to fill the holes.
 
 Original picture:
+
 ![alt text](lena.jpg)
 
 2X magnify CPU version:
+
 ![alt text](lena2.jpg)
 
 2X magnify GPU version:
+
 ![alt text](lena3.jpg)
