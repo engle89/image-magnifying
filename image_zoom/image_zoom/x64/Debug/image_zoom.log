@@ -1,0 +1,85 @@
+﻿  Compiling CUDA source file dcci_gpu.cu...
+  
+  D:\engle\image_zoom\image_zoom>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"D:\Program File\opencv\build\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\dcci_gpu.cu.obj "D:\engle\image_zoom\image_zoom\dcci_gpu.cu" 
+c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h(838): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h(1772): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h(2628): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h(3477): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h(4417): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h(5319): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h(6229): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h(7104): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h(7914): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt/device_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt/device_functions.h(776): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt/device_functions.h(1636): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\device_double_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\sm_20_intrinsics.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\sm_20_intrinsics.h(925): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h(838): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h(1772): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h(2628): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h(3477): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h(4417): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h(5319): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h(6229): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h(7104): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h(7914): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt/device_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt/device_functions.h(776): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt/device_functions.h(1636): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\device_double_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\sm_20_intrinsics.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\sm_20_intrinsics.h(925): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  dcci_gpu.cu
+c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h(838): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h(1772): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h(2628): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h(3477): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h(4417): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h(5319): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h(6229): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h(7104): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.0\include\crt\math_functions.h(7914): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  DCCI_GPU.cpp
+d:\engle\image_zoom\image_zoom\dcci_gpu.cpp(73): warning C4838: conversion from 'std::size_t' to 'int' requires a narrowing conversion
+d:\engle\image_zoom\image_zoom\dcci_gpu.cpp(73): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  DCCI.cpp
+d:\engle\image_zoom\image_zoom\dcci.cpp(16): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+d:\engle\image_zoom\image_zoom\dcci.cpp(77): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\engle\image_zoom\image_zoom\dcci.cpp(82): warning C4244: '=': conversion from 'double' to 'uchar', possible loss of data
+d:\engle\image_zoom\image_zoom\dcci.cpp(86): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\engle\image_zoom\image_zoom\dcci.cpp(91): warning C4244: '=': conversion from 'double' to 'uchar', possible loss of data
+d:\engle\image_zoom\image_zoom\dcci.cpp(99): warning C4305: 'argument': truncation from 'double' to 'float'
+d:\engle\image_zoom\image_zoom\dcci.cpp(99): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\engle\image_zoom\image_zoom\dcci.cpp(100): warning C4305: 'argument': truncation from 'double' to 'float'
+d:\engle\image_zoom\image_zoom\dcci.cpp(100): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\engle\image_zoom\image_zoom\dcci.cpp(106): warning C4244: '=': conversion from 'double' to 'uchar', possible loss of data
+d:\engle\image_zoom\image_zoom\dcci.cpp(175): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\engle\image_zoom\image_zoom\dcci.cpp(180): warning C4244: '=': conversion from 'double' to 'uchar', possible loss of data
+d:\engle\image_zoom\image_zoom\dcci.cpp(185): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\engle\image_zoom\image_zoom\dcci.cpp(190): warning C4244: '=': conversion from 'double' to 'uchar', possible loss of data
+d:\engle\image_zoom\image_zoom\dcci.cpp(198): warning C4305: 'argument': truncation from 'double' to 'float'
+d:\engle\image_zoom\image_zoom\dcci.cpp(198): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\engle\image_zoom\image_zoom\dcci.cpp(199): warning C4305: 'argument': truncation from 'double' to 'float'
+d:\engle\image_zoom\image_zoom\dcci.cpp(199): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\engle\image_zoom\image_zoom\dcci.cpp(205): warning C4244: '=': conversion from 'double' to 'uchar', possible loss of data
+d:\engle\image_zoom\image_zoom\dcci.cpp(254): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\engle\image_zoom\image_zoom\dcci.cpp(259): warning C4244: '=': conversion from 'double' to 'uchar', possible loss of data
+d:\engle\image_zoom\image_zoom\dcci.cpp(264): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\engle\image_zoom\image_zoom\dcci.cpp(269): warning C4244: '=': conversion from 'double' to 'uchar', possible loss of data
+d:\engle\image_zoom\image_zoom\dcci.cpp(277): warning C4305: 'argument': truncation from 'double' to 'float'
+d:\engle\image_zoom\image_zoom\dcci.cpp(277): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\engle\image_zoom\image_zoom\dcci.cpp(278): warning C4305: 'argument': truncation from 'double' to 'float'
+d:\engle\image_zoom\image_zoom\dcci.cpp(278): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\engle\image_zoom\image_zoom\dcci.cpp(284): warning C4244: '=': conversion from 'double' to 'uchar', possible loss of data
+  Generating Code...
+  image_zoom.vcxproj -> D:\engle\image_zoom\x64\Debug\image_zoom.exe
+  image_zoom.vcxproj -> D:\engle\image_zoom\x64\Debug\image_zoom.pdb (Full PDB)
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart*.dll" "D:\engle\image_zoom\x64\Debug\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart32_90.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart64_90.dll
+          2 file(s) copied.
